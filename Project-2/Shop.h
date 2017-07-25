@@ -11,7 +11,7 @@ class Shop {
 public:
 	Shop();
 	Shop(string name, string filename);
-	Shop(string name, vector<Item> items);
+	Shop(string name, vector<Item*> items);
 	void ReadDataFromFile();
 	void ShowItemList();
 private:

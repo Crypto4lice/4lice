@@ -47,7 +47,7 @@ Shop::Shop(string name, string filename)
 	}
 }
 
-Shop::Shop(string name, std::vector<Item> items)
+Shop::Shop(string name, std::vector<Item*> item)
 	: shop_name(name), item(item)
 {
 }
