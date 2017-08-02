@@ -1,6 +1,6 @@
 # varlue for listmap
 resource = []
-# open file and listmap's key
+# open file and set listmap's key
 rsc = open("./resource.txt", "r")
 readhead = rsc.readline()
 readhead = readhead.split(' ')
