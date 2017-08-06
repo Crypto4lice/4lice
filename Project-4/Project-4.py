@@ -1,4 +1,4 @@
-# varlue for listmap
+# value for listmap
 resource = []
 # open file and set listmap's key
 rsc = open("./resource.txt", "r")
